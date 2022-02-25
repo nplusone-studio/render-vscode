@@ -15,8 +15,15 @@
     "no-throw-literal": "warn",
     "semi": "off",
     "@typescript-eslint/indent": "off",
-    "implicit-arrow-linebreak": "off"
+    "implicit-arrow-linebreak": "off",
+    "import/no-extraneous-dependencies": [
+      "error",
+      {
+        "devDependencies": ["src/test/**"]
+      }
+    ]
   },
+
   "ignorePatterns": ["out", "dist", "**/*.d.ts"],
   "extends": ["airbnb-base", "airbnb-typescript/base"]
 }

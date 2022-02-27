@@ -2,7 +2,7 @@
   "name": "render",
   "displayName": "render.com Extension",
   "description": "Extension to browse Render services and resources",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "engines": {
     "vscode": "^1.64.0"
   },

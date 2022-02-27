@@ -4,11 +4,10 @@ import TokenStorage from './TokenStorage';
 
 export function activate(context: ExtensionContext) {
   TokenStorage.init(context);
-  const storage = TokenStorage.instance;
 
   const disposable = commands.registerCommand('render.setup', async () => {
     const tokenInput = await window.showInputBox();
-    await storage.storeToken(tokenInput);
+    await TokenStorage.instance.storeToken(tokenInput);
   });
 
   window.registerTreeDataProvider('dashboard', new RenderServicesProvider());

@@ -15,7 +15,7 @@ export default class TokenStorage {
   }
 
   storeToken(token?: string): Thenable<void> | undefined {
-    return token ? this.secretStorage.delete('render_api_token') : undefined;
+    return token ? this.secretStorage.store('render_api_token', token) : undefined;
   }
 
   getToken(): Thenable<string | undefined> {

@@ -12,7 +12,6 @@ export default class RenderServicesProvider implements TreeDataProvider<Service>
 
   async getServices() {
     const token = await TokenStorage.instance.getToken();
-
     const response = await axios.get('https://api.render.com/v1/services?limit=20', {
       headers: {
         Accept: 'application/json',

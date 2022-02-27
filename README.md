@@ -22,6 +22,10 @@ Right now this extension only shows some information about your services. I plan
 You did not add your api key or it is invalid. Follow the steps in the "Setup" section.
 
 ## Release Notes
+### 0.0.2
+
+Fixes:
+ - Add extension icon
 
 ### 0.0.1
 

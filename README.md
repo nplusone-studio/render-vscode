@@ -13,7 +13,7 @@ Open the render view in your sidebar and you should see your services listed. (Y
 
 Right now this extension only shows some information about your services. I plan on adding more functionality, such as showing your deploys, triggering deploys, showing jobs, and anything that the render api supports :) 
 
-![Services List](./images/services1.png)
+![Services List](./images/services.png)
 
 ## Known Issues
 

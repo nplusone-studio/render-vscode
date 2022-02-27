@@ -24,11 +24,11 @@ You did not add your api key or it is invalid. Follow the steps in the "Setup" s
 ## Release Notes
 ### 0.0.2
 
-Fixes:
+Fixed:
  - Add extension icon
 
 ### 0.0.1
 
 Initial release of extension.
-Features:
+Added:
 - List of render services in sidebar
